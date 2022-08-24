@@ -2,14 +2,25 @@
 
 body {
   margin: 0;
+  margin-top: 60px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-photo/3d-glasses-arrangement-on-yellow-background_23-2148457813.jpg?w=996&t=st=1661297982~exp=1661298582~hmac=7b197d7829ca2ecbc566d770ef4bb1989e5293fa110f2db9bd40dc70cfa8d7fd");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+li {
+  list-style: none;
 }
