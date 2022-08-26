@@ -1,0 +1,34 @@
+.reviews-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  &-list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      padding: 6px;
+      margin: 20px;
+      width: 100%;
+      &-name {
+        font-size: 30px;
+        width: 100%;
+        border-bottom: dotted black;
+        border-top: dotted black;
+        padding: 8px 0;
+        text-align: center;
+        font-weight: 700;
+      }
+      &-content {
+        margin: 20px;
+      }
+    }
+  }
+}

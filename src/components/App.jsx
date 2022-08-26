@@ -1,4 +1,4 @@
-import { AppWrapper } from './appwrapper/appwrapper';
+import { AppWrapper } from './appWrapper/appwrapper';
 
 export const App = () => {
   return (

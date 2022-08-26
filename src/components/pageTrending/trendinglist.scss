@@ -1,0 +1,42 @@
+@keyframes blink {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 149, 255);
+  }
+  75% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+.trending-section {
+  border: 15px dotted;
+  border-top: none;
+  animation: blink 10s infinite;
+  background-color: rgba(218, 218, 218, 0.571);
+  margin: 0;
+  padding: 20px 0 50px;
+  height: fit-content;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    &-item__link {
+      font-size: 30px;
+      margin: 4px;
+    }
+  }
+}
