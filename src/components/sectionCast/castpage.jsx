@@ -10,18 +10,18 @@ const CastPage = ({ cast }) => {
           <li className="cast-page-section__list-item" key={nanoid(7)}>
             {result.profile_path !== null ? (
               <img
-                className="cast-page-section__list-item_pic"
+                className="cast-page-section__list-item__pic"
                 src={`https://image.tmdb.org/t/p/w200/${result.profile_path}`}
                 alt="img"
               ></img>
             ) : (
               <img
-                className="cast-page-section__list-item_pic"
+                className="cast-page-section__list-item__pic"
                 src={`https://nelc-cert.s3.us-east-2.amazonaws.com/wp-content/uploads/2016/11/02104338/Portrait-Placeholder.jpg`}
                 alt="img"
               ></img>
             )}
-            <span className="cast-page-section__listitem__name">
+            <span className="cast-page-section__list-item__name">
               {result.name.toUpperCase()}
             </span>
           </li>
